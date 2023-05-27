@@ -1,0 +1,199 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+  }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+}
+.container 
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family:myFirstFont ;
+    font-size: small;
+ 
+ 
+}
+
+.container_Content
+{
+    position: relative;
+    width: 550px;
+    height: 350px;
+    /* border: 2px solid green; */
+    /* border-radius: 20px; */
+    margin: auto;
+    display: flex;
+    background-color: white;
+    box-shadow: 8px 8px 8px  rgb(232, 233, 252);
+ 
+    
+}
+.box1
+{
+    /* background: rgb(143,152,196); */
+    background: radial-gradient(circle, rgba(143,152,196,1) 0%, rgba(70,74,252,1) 100%);
+    border-radius: 20px; 
+    width: 50%;
+    height: 100%;
+    justify-items: center;
+ 
+  
+  
+}
+.box2
+{
+    
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(75, 150, 81); */
+}
+
+.box_container 
+{
+ 
+    position: relative;
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* padding: 20px; */
+    margin: 15px auto;
+ 
+}
+
+.box_circular
+{
+    display: flex;
+    width: 90px;
+    height: 90px;
+    margin: 20px auto 50px;
+    background-color:  rgba(70,74,252,1);
+    border-radius: 15rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 5px 5px 3px 19px rgba(70,74,252,1);
+    
+}
+.content
+{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box_text 
+{
+ 
+    display: flex;
+    width: 70%;
+    height: auto;
+    margin: 10px auto;  
+   color: white;
+   align-items: center;
+   /* justify-content: center; */
+   flex-direction: column;
+   ;
+ 
+}
+
+.box2-head
+{
+  margin: 20px;
+}
+.card{
+    width: 80%;
+    height: 30px;
+    background-color: rgb(247, 243, 243);
+    margin: 20px;
+    border-radius: 6px;
+} 
+.card_sub
+{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.card_para
+{
+    display: flex;
+    justify-content: end;
+ 
+
+}
+
+.card_image
+{
+    display: flex;
+}
+  
+
+  button
+  {
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    background-color: #2512FF;
+    margin: 20px;
+    border-radius: 20px;
+    font-family:myFirstFont;
+    color: white;
+    border: none;
+  }
+  button:hover
+  {
+    background-color: #313d57;
+  }
+  img{
+    padding: 3px;
+  }
+
+.Reaction
+{
+    color: #F55;
+}
+.Memory
+{
+    color: #FFB21E;
+}
+.Verbal 
+{
+    color:#00BB8F ;
+}
+.Visual 
+{
+    color: #1125D6;
+}
+@media screen and (max-width: 600px) {
+ 
+    .container_Content
+    {
+        margin: 0;
+        display: inline-block;
+        width: 100%;
+        /* inline-size: fit-content; */
+ 
+    }
+    .box1
+    {
+        width: 100%;
+        height: 70%;
+        margin-top: -20px;
+    }
+    .box2
+{
+    
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(75, 150, 81); */
+}
+  }
